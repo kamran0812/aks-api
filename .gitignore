@@ -1,0 +1,14 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+*.tfvars.json
+
+
+# Azure CLI
+.terraform.azure.tfstate
+
+
+
