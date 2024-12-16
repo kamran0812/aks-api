@@ -55,7 +55,7 @@ func timeHandler(w http.ResponseWriter, r *http.Request) {
 
 	response := TimeResponse{
 		CurrentTime: time.Now().UTC().Format(time.RFC3339),
-		Message:     "Start tracking time",
+		Message:     "Automate All The Things",
 		ClientIP:    getClientIP(r),
 		RequestMode: r.Proto,
 	}
